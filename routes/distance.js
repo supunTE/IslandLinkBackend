@@ -42,11 +42,8 @@ function getDistance(source, destination) {
 router.post("/", async function (req, res, next) {
 	const source = [req.body.sourceLong, req.body.sourceLat];
 	const destination = [req.body.destLong, req.body.destLat];
-	console.log(source, destination);
-
 	try {
 		const distance = await getDistance(source, destination);
-		console.log("dis:", distance);
 		const response = {
 			distance,
 		};
