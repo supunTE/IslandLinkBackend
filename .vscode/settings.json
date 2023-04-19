@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3867ee21-c472-4ee7-9d34-5aa5aa6e5fac/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/island-link-backend",
+    "appService.deploySubpath": "."
+}

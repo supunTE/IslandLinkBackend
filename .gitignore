@@ -1,2 +1,8 @@
 node_modules
 .env.local
+logs/Default CollectContent name.json
+logs/Default OpenLinks name.json
+logs/finalErrors.json
+logs/log.json
+logs/mw-page-title-main.json
+logs/tile.json
