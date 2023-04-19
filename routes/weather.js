@@ -25,6 +25,7 @@ router.post("/", async function (req, res, next) {
     const weather = await getWeather(lat, long);
     if(!weather || !weather.current){
         res.status(500).send("No weather found");
+        return;
     }
     const data = {
         temp: weather.current.temp_c,
